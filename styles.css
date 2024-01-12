@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --fontT: 'Bebas Neue', sans-serif;
+    --fontP: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #0e0e0e6b;
+}
+
+header {
+    background-color: #FFDEF3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+
+header .logoDiv {
+    height: 6rem;
+    width: 6rem;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+
+}
+
+header .header-left nav {
+    margin-left: 50px;
+    padding-right: 4rem;
+}
+
+header .header-left nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.none {
+    top: -100%;
+}
+
+header ul li {
+    position: relative;
+}
+
+header ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: rgb(153, 50, 204);
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 1s;
+
+}
+
+nav ul li:hover::after {
+    content: '';
+    width: 100%;
+}
+
+header nav ul a {
+    display: block;
+    font-family: var(--fontP);
+    font-size: 1.2rem;
+    color: #000000;
+
+}
+
+
+
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+header .header-right .hamburger div {
+    width: 22px;
+    height: 2px;
+    margin: 4px 0;
+    background: #0e0e0e;
+}
+
+nav ul li a:hover {
+    color: #161616;
+}
+
+/* END HEADER */
+
+
+@media only screen and (max-width: 1000px) {
+
+    /* MEDIA HEADER */
+
+    header .header-right .hamburger {
+        display: block;
+        margin: 2rem;
+    }
+
+    header .header-left nav {
+        position: absolute;
+        margin: 0;
+        left: 0;
+        top: -100%;
+        width: 100%;
+        height: 30%;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+        background-color: #FFDEF3;
+        padding: 0;
+    }
+
+    header .header-left nav.active {
+        top: 123px;
+    }
+
+    header ul li {
+        margin: 1.6rem;
+    }
+
+    header .header-left nav ul {
+        display: block;
+
+
+    }
+
+    /* END MEDIA HEADER */
+
+
+
+}
