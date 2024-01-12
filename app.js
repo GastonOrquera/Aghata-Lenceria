@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
         distance: '120px',
         duration: 2000,
         easing: 'cubic-bezier(0.5,0,0,1)',
-        interval: 200
+        interval: 200,
+        opacity: 1
     });
     ScrollReveal().reveal('.scroll-reveal2', {
         origin: 'top',
