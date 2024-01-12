@@ -55,10 +55,6 @@ header .header-left nav ul {
     gap: 4rem;
 }
 
-.none {
-    top: -100%;
-}
-
 header ul li {
     position: relative;
 }
