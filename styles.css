@@ -30,9 +30,11 @@ header {
 header .logoDiv {
     height: 6rem;
     width: 6rem;
-    background-image: url(logo.jpg);
+    /* background-image: url(logo.jpg); */
+    background-image: url(logoo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -78,7 +80,7 @@ nav ul li:hover::after {
 
 header nav ul a {
     display: block;
-    font-family: var(--fontP);
+    font-family: var(--fontT);
     font-size: 1.2rem;
     color: #000000;
 
