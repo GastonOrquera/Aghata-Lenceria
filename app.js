@@ -12,6 +12,13 @@ document.addEventListener('DOMContentLoaded', function () {
         easing: 'cubic-bezier(0.5,0,0,1)',
         interval: 200
     });
+    ScrollReveal().reveal('.scroll-reveal2', {
+        origin: 'top',
+        distance: '40px',
+        duration: 1000,
+        easing: 'cubic-bezier(0.5,0,0,1)',
+        interval: 200
+    });
 });
 
 

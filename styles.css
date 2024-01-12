@@ -34,8 +34,7 @@ header .logoDiv {
     background-image: url(logoo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    object-fit: cover;
-    border-radius: 50%;
+    border-radius: 52%;
 }
 
 header .header-left {
@@ -81,7 +80,7 @@ nav ul li:hover::after {
 header nav ul a {
     display: block;
     font-family: var(--fontT);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #000000;
 
 }
@@ -106,6 +105,105 @@ nav ul li a:hover {
 }
 
 /* END HEADER */
+
+
+/* MAIN */
+
+.conteiner {
+    background-color: #ffe9f7;
+    padding: 2rem;
+
+    /* text-align: center; */
+}
+
+.conteiner .title {
+    font-family: var(--fontT);
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1rem;
+    letter-spacing: 2px;
+}
+
+.hr {
+    width: 50%;
+    color: rgb(153, 50, 204);
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END MAIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -147,6 +245,10 @@ nav ul li a:hover {
         display: block;
 
 
+    }
+
+    header nav ul a {
+        font-size: 1.1rem;
     }
 
     /* END MEDIA HEADER */
