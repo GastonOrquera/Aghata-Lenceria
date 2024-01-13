@@ -28,7 +28,6 @@ header {
 header .logoDiv {
     height: 6rem;
     width: 6rem;
-    /* background-image: url(logo.jpg); */
     background-image: url(logoo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -108,12 +107,8 @@ nav ul li a:hover {
 /* MAIN */
 
 .conteiner {
-
-
     background-color: #ffe9f7;
     padding: 2rem;
-
-    /* text-align: center; */
 }
 
 .conteiner .title {
@@ -131,27 +126,35 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.conteinerProd {
-    /* background-color: #f8a3d9; */
+.section {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background: #ee9ca7; */
+    flex-direction: column;
+    padding: 2rem;
+    background: #42275a;
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    background: linear-gradient(to right, #734b6d, #42275a);
+}
+
+.section h2 {
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 2rem;
+    font-family: var(--fontT);
+    letter-spacing: 4px;
+    color: #FFDEF3;
+}
+
+.conteinerProd {
     padding: 2rem;
     gap: 2rem;
-    /* background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); */
-
-    background: #42275a;
-
-    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-
-    background: linear-gradient(to right, #734b6d, #42275a);
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .conteinerProd .article {
-    /* background-color: rgb(203, 255, 238); */
     display: flex;
     flex-direction: column;
     width: max-content;
@@ -163,7 +166,6 @@ nav ul li a:hover {
 }
 
 .conteinerProd .article .imgProduct1 {
-    /* background-color: yellow; */
     width: 18rem;
     height: 20rem;
     background-image: url(blue.jpeg);
@@ -175,7 +177,6 @@ nav ul li a:hover {
 }
 
 .conteinerProd .article .imgProduct2 {
-    /* background-color: yellow; */
     width: 18rem;
     height: 20rem;
     background-image: url(red.jpeg);
@@ -235,7 +236,11 @@ nav ul li a:hover {
 
 }
 
-
+.hr2 {
+    color: #FFDEF3;
+    width: 28%;
+    margin: .4rem auto;
+}
 
 
 
