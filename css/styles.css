@@ -425,7 +425,9 @@ nav ul li a:hover {
 
     /* PRODUCTS MEDIA */
 
-
+    .conteiner {
+        padding: 1.2rem;
+    }
 
     .section {
         padding: .6rem;
@@ -434,20 +436,20 @@ nav ul li a:hover {
     .conteinerProd {
         display: grid;
         grid-template-columns: 1fr 1fr;
-
-
+        gap: 1rem;
+        padding: 0;
     }
 
     /* .conteinerProd .article {} */
 
     .conteinerProd .article .imgProduct1 {
-        width: 100%;
+        width: 144px;
         height: 10rem;
 
     }
 
     .conteinerProd .article .imgProduct2 {
-        width: 100%;
+        width: 144px;
         height: 10.2rem;
 
     }
