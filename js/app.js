@@ -52,19 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
-    // Obtén el elemento del ícono de caret
     const caretIcon = document.querySelector('.bi-caret-down-fill');
-
-    // Obtén el elemento del menú desplegable
     const dropdownMenu = document.querySelector('.nav__dropdown');
 
-
-
-    // Agrega un evento click al ícono de caret
     caretIcon.addEventListener('click', function () {
-        // Alternar las clases para cambiar la visibilidad del menú desplegable
 
+        dropdownMenu.classList.toggle('hidden');
         dropdownMenu.classList.toggle('visible');
+
     });
 
 
