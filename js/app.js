@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
         interval: 200
     });
 
-
     var hamburger = document.querySelector(".hamburger");
 
     var nav = document.querySelector("nav");
