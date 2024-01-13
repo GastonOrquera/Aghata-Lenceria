@@ -7,8 +7,8 @@ hamburger.onclick = function () {
 document.addEventListener('DOMContentLoaded', function () {
     ScrollReveal().reveal('.scroll-reveal', {
         origin: 'right',
-        distance: '120px',
-        duration: 2000,
+        distance: '100px',
+        duration: 1600,
         easing: 'cubic-bezier(0.5,0,0,1)',
         interval: 200,
         opacity: 1
