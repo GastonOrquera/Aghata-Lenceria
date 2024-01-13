@@ -292,6 +292,50 @@ nav ul li a:hover {
     border-top-left-radius: .6rem;
 }
 
+.conteinerProd .article .imgProduct11 {
+    width: 18rem;
+    height: 20rem;
+    background-image: url(../img/imgProduct11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
+}
+
+.conteinerProd .article .imgProduct12 {
+    width: 18rem;
+    height: 20rem;
+    background-image: url(../img/imgProduct12.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
+}
+
+.conteinerProd .article .imgProduct13 {
+    width: 18rem;
+    height: 20rem;
+    background-image: url(../img/imgProduct13.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
+}
+
+.conteinerProd .article .imgProduct14 {
+    width: 18rem;
+    height: 20rem;
+    background-image: url(../img/imgProduct14.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
+}
+
 
 .conteinerProd .article .divflex {
     padding: 1rem 1rem;
@@ -314,6 +358,7 @@ nav ul li a:hover {
 
 .conteinerProd .article .divFlexC {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -540,7 +585,11 @@ nav ul li a:hover {
     .conteinerProd .article .imgProduct7,
     .conteinerProd .article .imgProduct8,
     .conteinerProd .article .imgProduct9,
-    .conteinerProd .article .imgProduct10 {
+    .conteinerProd .article .imgProduct10,
+    .conteinerProd .article .imgProduct11,
+    .conteinerProd .article .imgProduct12,
+    .conteinerProd .article .imgProduct13,
+    .conteinerProd .article .imgProduct14 {
         width: 152px;
         height: 10rem;
 
