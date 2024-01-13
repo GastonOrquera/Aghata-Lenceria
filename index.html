@@ -15,18 +15,21 @@
         <a href=" index.html">
             <div class="logoDiv"></div>
         </a>
+
         <div class="header-left">
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li class="nav__item">
-                        <a href="#productos">Productos</a>
-                        <!-- <i class="bi bi-caret-down-fill"></i>
-                    <li class="nav__dropdown"><a class="nav__link" href="#">Conjuntos</a></li>
-                    <li class="nav__dropdown"><a class="nav__link" href="#">Bikinis</a></li>
-                    <li class="nav__dropdown"><a class="nav__link" href="#">Less</a></li> -->
-
-
+                        <div class="flex" style="display: flex; align-items: center; gap: .2rem;">
+                            <a class="" href="#productos">Productos</a>
+                            <i class="bi bi-caret-down-fill class" style="color: #4a258f; cursor: pointer;"></i>
+                        </div>
+                        <ul class="nav__dropdown hidden">
+                            <li><a class="nav__link" href="#">Conjuntos</a></li>
+                            <li><a class="nav__link" href="#">Bikinis</a></li>
+                            <li><a class="nav__link" href="#">Less</a></li>
+                        </ul>
                     </li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
@@ -35,7 +38,7 @@
 
 
         <div class="header-right">
-            <div class="hamburger">
+            <div class="hamburger hamburger--open">
                 <div class="scroll-reveal"></div>
                 <div class="scroll-reveal"></div>
                 <div class="scroll-reveal"></div>
