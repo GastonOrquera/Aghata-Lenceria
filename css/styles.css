@@ -28,7 +28,7 @@ header {
 header .logoDiv {
     height: 6rem;
     width: 6rem;
-    background-image: url(logoo.jpg);
+    background-image: url(../img/logoo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 52%;
@@ -105,8 +105,15 @@ nav ul li a:hover {
 /* MAIN */
 
 .conteiner {
-    background-color: #ffe9f7;
+    /* background-color: #ffe9f7; */
     padding: 2rem;
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .conteiner .title {
@@ -168,7 +175,7 @@ nav ul li a:hover {
 .conteinerProd .article .imgProduct1 {
     width: 18rem;
     height: 20rem;
-    background-image: url(blue.jpeg);
+    background-image: url(../img/blue.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -179,7 +186,7 @@ nav ul li a:hover {
 .conteinerProd .article .imgProduct2 {
     width: 18rem;
     height: 20rem;
-    background-image: url(red.jpeg);
+    background-image: url(../img/red.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -320,6 +327,10 @@ nav ul li a:hover {
 
     /* MEDIA HEADER */
 
+    header {
+        padding: .6rem 1.6rem;
+    }
+
     header .header-right .hamburger {
         display: block;
         margin: 2rem;
@@ -344,7 +355,7 @@ nav ul li a:hover {
     }
 
     header .header-left nav.active {
-        top: 123px;
+        top: 115px;
     }
 
     header ul li {
@@ -365,14 +376,24 @@ nav ul li a:hover {
 
     /* PRODUCTS MEDIA */
 
+    .section {
+        padding: 1rem;
+    }
+
     .conteinerProd {
         padding: 1rem 1rem;
         /* flex-direction: column;
         align-items: center;
         justify-content: center; */
-        gap: 1rem;
+        /* gap: 3rem; */
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 100%;
+        /* background-color: yellow; */
+    }
+
+    .conteinerProd .article {
+        width: 10.8rem;
     }
 
     .conteinerProd .article .imgProduct1 {
@@ -390,6 +411,8 @@ nav ul li a:hover {
     .hr2 {
         margin-bottom: 2rem;
     }
+
+
 
 
 
